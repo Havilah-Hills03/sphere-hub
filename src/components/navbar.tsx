@@ -32,13 +32,20 @@ export const Navbar: React.FC = () => {
             </Link>
           </li>
           <li className="hover:text-[#016B83] cursor-pointer transition">
-               <a href=""> About Us</a>
+                 <Link to="/">
+              About Us
+            </Link>
           </li>
           <li className="hover:text-[#016B83] cursor-pointer transition">
                <a href=""> Community </a>
+                 <Link to="/">
+              Community
+            </Link>
           </li>
-          <li className="hover:text-[#016B83] cursor-pointer transition">
-               <a href=""> Contact Us </a>
+          <li className="hover:text-[#016B83] cursor-pointer transition"> 
+                 <Link to="/">
+              Contact Us 
+            </Link>
           </li>
         </ul>
          <Button
@@ -63,12 +70,26 @@ export const Navbar: React.FC = () => {
         }`}
       >
         <ul className="flex flex-col items-start space-y-4 px-6 text-[18px] font-medium text-[#222]">
-          <li className="hover:text-[#016B83] transition">Home</li>
-          <li className="hover:text-[#016B83] transition">About</li>
           <li className="hover:text-[#016B83] transition">
-            <a href="/office-space"> Work Space</a>
+             <Link to="/">
+             Home 
+            </Link>
           </li>
-          <li className="hover:text-[#016B83] transition">Contact</li>
+          <li className="hover:text-[#016B83] transition">
+             <Link to="/">
+             About Us  
+            </Link>
+          </li>
+          <li className="hover:text-[#016B83] transition"> 
+             <Link to="/office-space">
+             Office
+            </Link> 
+          </li>
+          <li className="hover:text-[#016B83] transition">
+             <Link to="/office-space">
+             Contact
+            </Link> 
+          </li>
         </ul>
                  <Button   text={
                       <span className="flex items-center gap-2">
