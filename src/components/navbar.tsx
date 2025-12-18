@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "../components/Button"; 
+import logo from "../assets/future-sphere-logo.png"
 
 
 export const Navbar: React.FC = () => {
@@ -13,7 +14,9 @@ export const Navbar: React.FC = () => {
       <nav className="flex items-center justify-between px-6  py-2">
 
         {/* Logo */}
-        <h4 className="text-xl font-bold text-[#016B83]">Logo</h4>
+     <a href="/">
+       <img src={logo} alt="" />
+     </a>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-12 text-[#222] font-medium">

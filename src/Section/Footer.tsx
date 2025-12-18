@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FiSend } from "react-icons/fi"; // <-- FIXED: correct send icon
+import { FiSend } from "react-icons/fi"; 
+import logo from "../assets/future-sphere-logo.png"
 
 export const Footer: React.FC = () => {
   return (
@@ -15,7 +16,10 @@ export const Footer: React.FC = () => {
 
         {/* Logo + Text */}
         <div>
-          <h4 className="text-xl font-bold mb-4">Futuresphere Logo</h4>
+             <a href="/">
+       <img src={logo} alt="" />
+     </a>
+
           <p className="max-w-sm">
             Futuresphere Business & Innovation Hub helps individuals, startups,
             and MSMEs gain the skills, tools, and community they need to thrive
