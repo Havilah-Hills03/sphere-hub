@@ -41,7 +41,7 @@ const HeroSlider: React.FC<HeroSliderProps> = () => {
                 flex items-end justify-start
                 px-4 sm:px-6 md:px-20
                 text-white bg-cover bg-center
-                pb-10 lg:pb-[7.3em] lg:pl-[7em]
+                pb-16 lg:pb-[7.3em] lg:pl-[7em]
               "
               style={{
                 backgroundImage: `linear-gradient( rgba(41, 77, 88, 0.5), rgba(41, 77, 88, 0.5)), url(${slide.img})`,
