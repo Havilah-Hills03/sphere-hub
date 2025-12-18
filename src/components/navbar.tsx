@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "../components/Button"; 
 import logo from "../assets/future-sphere-logo.png"
+import { Link } from "react-router-dom";
 
 
 export const Navbar: React.FC = () => {
@@ -20,9 +21,15 @@ export const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-12 text-[#222] font-medium">
-          <li className="hover:text-[#016B83] cursor-pointer transition">Home</li>
           <li className="hover:text-[#016B83] cursor-pointer transition">
-            <a href="/office-space"> Work Space </a>
+               <Link to="/">
+              Home
+            </Link>
+          </li>
+          <li className="hover:text-[#016B83] cursor-pointer transition"> 
+            <Link to="/office-space">
+                Office Space
+            </Link>
           </li>
           <li className="hover:text-[#016B83] cursor-pointer transition">
                <a href=""> About Us</a>
