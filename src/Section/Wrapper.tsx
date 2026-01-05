@@ -13,7 +13,7 @@ export const Wrapper:React.FC = () => {
         background: 'linear-gradient(180deg, #016B83 0%, #00181D 100%)'
     }}
     >
-        <h3 className='text-xl lg:text-[40px]'>Why Futuresphere</h3>
+        <h3 className=' lg:text-[40px]'>Why Futuresphere</h3>
         <p className='text-[18px] font-[400] my-4'>
             We exist to help every business — from startups to family-run MSMEs — build capacity, digitize, and scale sustainably
         </p>

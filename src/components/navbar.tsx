@@ -16,7 +16,7 @@ export const Navbar: React.FC = () => {
 
         {/* Logo */}
      <a href="/">
-       <img src={logo} alt="" />
+       <img src={logo} className="w-[130px]" alt="" />
      </a>
 
         {/* Desktop Menu */}
@@ -64,11 +64,11 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Dropdown */}
       <div
-        className={`md:hidden bg-white overflow-hidden transition-all duration-300 ${
+        className={`md:hidden bg-white overflow-hidden transition-all duration-300  ${
           open ? "max-h-[300px] py-4" : "max-h-0"
         }`}
       >
-        <ul className="flex flex-col items-start space-y-4 px-6 text-[18px] font-medium text-[#222]">
+        <ul className="flex flex-col items-start space-y-4 justify-center px-6 text-[18px] font-medium text-[#222]">
           <li className="hover:text-[#016B83] transition">
              <Link to="/">
              Home 
@@ -91,7 +91,7 @@ export const Navbar: React.FC = () => {
           </li>
         </ul>
                  <Button   text={
-                      <span className="flex items-center gap-2">
+                      <span className="flex items-center gap-2 w-full">
                         Get Started 
                       </span>
                     }

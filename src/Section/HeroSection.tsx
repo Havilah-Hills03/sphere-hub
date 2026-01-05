@@ -50,7 +50,7 @@ const HeroSlider: React.FC<HeroSliderProps> = () => {
               <div className="max-w-[700px] space-y-4 sm:space-y-6 animate-fade-in-up">
                 
                 {/* Title */}
-                <h1 className="text-3xl sm:text-4xl lg:text-[64px] font-[900] tracking-wide leading-tight lg:leading-[70px]">
+                <h1 className="text-2xl lg:text-[64px] font-[900] tracking-wide leading-tight lg:leading-[70px]">
                   <span className="text-[#88CA4E]">{slide.span}</span>
                   <br className="hidden lg:block" />
                   {slide.title}
@@ -70,12 +70,12 @@ const HeroSlider: React.FC<HeroSliderProps> = () => {
                         <FaArrowRight />
                       </span>
                     }
-                    className="inline-block bg-[#88CA4E] text-[#294D58]"
+                    className="lg:inline-block w-full bg-[#88CA4E] text-[#294D58] flex flex-col justify-center items-center"
                   />
 
                   <Button
                     text="Join the Community"
-                    className="border border-[#88CA4E] border-[4px] text-[#88CA4E] hover:bg-white  lg:w-[300px] flex flex-col justify-center items-center "
+                    className="border border-[#88CA4E] border-[4px] text-[#88CA4E] hover:bg-white  lg:w-[300px] w-full flex flex-col justify-center items-center "
                   />
                 </div>
               </div>
