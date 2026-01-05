@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
           "linear-gradient(279.33deg, #88CA4E 35.78%, rgba(69, 155, 105, 0.9) 76.11%, #294D58 97.65%)"
       }}
     >
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 justify-center items-center">
 
         {/* Logo + Text */}
         <div>
@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
 
         {/* Services */}
         <div>
-          <h4 className="text-xl font-bold mb-4 text-[#294D58]">Services</h4>
+          <h4 className="text-[20px] font-[700] mb-6 bg-linear-to-b from-[#016B83] to-[#00181D] bg-clip-text  text-transparent ">Services</h4>
           <ul className="space-y-2 text-white font-medium">
             <li>Digital Skills Training</li>
             <li>Start Up Incubation</li>
@@ -44,14 +44,14 @@ export const Footer: React.FC = () => {
 
         {/* Contact */}
         <div>
-          <h4 className="text-xl font-bold mb-4 text-[#294D58]">Contact Us</h4>
+         <h4 className="text-[20px] font-[700] mb-6 bg-linear-to-b from-[#016B83] to-[#00181D] bg-clip-text  text-transparent "> Contact Us</h4>
           <p className="mb-2 text-white font-medium">Call: <br /> +23480554799</p>
           <p className="text-white font-medium">Email:  <br /> help@futuresphere.com</p>
         </div>
 
         {/* Newsletter */}
         <div>
-          <h4 className="text-xl font-bold mb-4 text-[#294D58]">Be the first to hear of our news</h4>
+         <h4 className="text-[20px] font-[700] mb-6 bg-linear-to-b from-[#016B83] to-[#00181D] bg-clip-text  text-transparent "> Be the first to hear of our news</h4>
 
           {/* Input + Send Icon */}
           <div className="relative w-full">

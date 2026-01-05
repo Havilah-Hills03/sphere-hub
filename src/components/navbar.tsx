@@ -36,8 +36,7 @@ export const Navbar: React.FC = () => {
               About Us
             </Link>
           </li>
-          <li className="hover:text-[#016B83] cursor-pointer transition">
-               <a href=""> Community </a>
+          <li className="hover:text-[#016B83] cursor-pointer transition"> 
                  <Link to="/">
               Community
             </Link>

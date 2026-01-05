@@ -5,10 +5,14 @@ import dedicatedDesk from "../../../assets/dedicatedDesk.jpg"
 import conferenceRoom from "../../../assets/conferenceRoom.jpg"
 import trainingRoom from "../../../assets/trainingRoom.jpg"
 import officeOf2 from "../../../assets/officeOf2.jpg"
-import officeOf4 from "../../../assets/officeOf4.jpg"
+import officeOf4 from "../../../assets/officeOf4.jpg" 
 
 
-export const SpaceCategory: React.FC = () => {
+interface catProps{
+  Link? : boolean
+}
+
+export const SpaceCategory: React.FC<catProps> = () => {
   const categories = [
     {
       image: hotdesk,
@@ -77,27 +81,27 @@ export const SpaceCategory: React.FC = () => {
 
             {/* Body Section */}
             <div className="cardBody px-6 py-6 rounded-b-4xl">
-              <h4 className="text-[#294D58] text-2xl font-bold mb-3">
+              <h5 className="text-[#333333] text-[18px] font-[600] mb-3">
                 {category.title}
-              </h4>
+              </h5>
 
-              <ul className="space-y-2 mb-4">
+              <ul className="space-y-4 mb-4">
                 {category.desc?.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2 text-[#333]">
-                   <div className="w-[23px] h-[23px] bg-[#88CA4E] flex justify-center items-center shrink-0">
+                   <div className="w-[23px] h-[23px] bg-[#88CA4E] text-[18px] font-[400] flex justify-center items-center shrink-0">
                      <FaCheck  className="text-white mt-1 text-[16px] font-medium" />
                      </div>
-                    <span className="text-lg">{item}</span>
+                    <span className="text-[16px] font-[400]">{item}</span>
                   </li>
                 ))}
               </ul>
 
-              <p className="text-lg font-semibold text-[#294D58] mb-5">
+              <h5 className="text-[18px] font-semibold text-[#294D58] mb-5">
                 {category.price}
-              </p>
+              </h5>
 
-              <button className="bg-[#88CA4E] text-[#294D58] hover:bg-white border border-[#88CA4E] transition px-6 py-2 rounded-lg text-lg font-bold">
-                {category.buttonText}
+              <button className="w-full bg-[#88CA4E] w-full hover:bg-white border border-[#88CA4E] transition px-10 py-1 rounded-lg text-[16px] font-semibold" style={{color: '#294D58',  }}>
+                 {category.buttonText}
               </button>
             </div>
           </div>

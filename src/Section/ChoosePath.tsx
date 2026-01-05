@@ -39,9 +39,9 @@ export const ChoosePath:React.FC = () => {
   },
   ]
   return (
-    <section className=' flex flex-col justify-center items-center lg:my-[4em] my-6'>
+    <section className=' flex flex-col justify-center items-center lg:my-[4em] my-6 lg:px-[7em]'>
         <h3 className=' bg-linear-to-b from-[#016B83] to-[#00181D] bg-clip-text  text-transparent mb-2.5'>Choose your Path</h3>
-        <p className='text-[#333333] text-lg mb-10 font-bold'>Our Services</p>
+        <h5 className='text-[#333333] text-lg mb-10 font-semibold'>Our Services</h5>
 
         {/* card container  */}
 

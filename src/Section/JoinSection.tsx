@@ -6,14 +6,14 @@ import { FaArrowRight } from 'react-icons/fa'
 
 export const JoinSection:React.FC = () => {
   return (
-    <section className='relative h-[90vh] flex flex-col justify-center items-center text-center '
+    <section className='relative h-[80vh] flex flex-col justify-center items-center text-center '
     
     style={{
         backgroundImage: `url(${joinBanner})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
     }}>
-            <p className='text-2xl text-white relative z-999 mb-6 p-4'>
+            <p className='text-[24px] font-[500] text-white relative z-999 mb-6 p-4'>
                 Become part of a vibrant community of builders, founders, and professionals shaping the <br /> future of business in Nigeria.
             </p>
             <Button text={

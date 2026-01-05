@@ -22,7 +22,7 @@ export const Card:React.FC<cardProps > = ({image , cardTitle , cardDesc , classN
         </div>
         <div className={`cardBody ${className} rounded-b-4xl`}>
             <h4 className='text-[#294D58] text-2xl font-bold'>{cardTitle}</h4>
-            <p className='text-lg text-[#333333] mb-4'>{cardDesc}</p>
+            <p className='text-[18px] font-[400] text-[#333333]  mb-4'>{cardDesc}</p>
              <button className={`${btnClassname}  bg-[#88CA4E] text-[#294D58] hover:bg-white transition px-4 py-2  rounded-lg text-lg lg:px-10 font-bold`}>
                  {text}
              </button>

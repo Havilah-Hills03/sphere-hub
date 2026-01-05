@@ -21,14 +21,14 @@ export const HeroSection:React.FC = () => {
                      <div className="max-w-[750px] space-y-4 sm:space-y-6 animate-fade-in-up">
                        
                        {/* Title */}
-                       <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide leading-tight lg:leading-17">
+                       <h1 className="text-3xl sm:text-4xl lg:text-[64px] font-[900] tracking-wide leading-tight lg:leading-18">
                          <span className="text-[#88CA4E]"> Work.</span>
                          <br />
                         Meet. <br /> Collaborate.
                        </h1>
        
                        {/* Subtitle */}
-                       <p className="text-base sm:text-lg md:text-[24px] font-medium max-w-xl">
+                       <p className="  lg:text-[24px] font-medium max-w-xl">
                         Discover the most inspiring coworking and meeting spaces for founders, creators, and teams in Port Harcourt.
                        </p>
        

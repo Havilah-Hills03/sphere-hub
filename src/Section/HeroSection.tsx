@@ -47,17 +47,17 @@ const HeroSlider: React.FC<HeroSliderProps> = () => {
                 backgroundImage: `linear-gradient( rgba(41, 77, 88, 0.5), rgba(41, 77, 88, 0.5)), url(${slide.img})`,
               }}
             >
-              <div className="max-w-[750px] space-y-4 sm:space-y-6 animate-fade-in-up">
+              <div className="max-w-[700px] space-y-4 sm:space-y-6 animate-fade-in-up">
                 
                 {/* Title */}
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide leading-tight lg:leading-18">
+                <h1 className="text-3xl sm:text-4xl lg:text-[64px] font-[900] tracking-wide leading-tight lg:leading-[70px]">
                   <span className="text-[#88CA4E]">{slide.span}</span>
                   <br className="hidden lg:block" />
                   {slide.title}
                 </h1>
 
                 {/* Subtitle */}
-                <p className="text-base sm:text-lg md:text-[24px] font-medium max-w-xl">
+                <p className=" text-lg lg:text-[24px] text-[#F5F5F5] leading-8 font-medium max-w-xl">
                   {slide.description}
                 </p>
 

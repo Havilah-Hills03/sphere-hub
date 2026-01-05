@@ -3,8 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaMapMarkerAlt, FaCalendarAlt, FaClock, FaUser } from 'react-icons/fa'
-import img1 from '../assets/event1.jpg'
+import img1  from '../../public/digiGrowAi.jpeg'
 import img2 from '../assets/event1.jpg'
+import img3 from '../assets/event1.jpg'
 
 
 export interface HeroSliderProps {
@@ -34,8 +35,23 @@ export interface HeroSliderProps {
 
 export const Whathappening: React.FC<HeroSliderProps> = () => {
   const content = [
-    {
+     {
       id: 1,
+      title: 'DigiGrow AI & Digital skills for small businesses',
+      desc: 'DigiGrow AI & Digital Skills for Small Businesses" is a hands-on event designed to empower entrepreneurs and small business owners with the latest tools and strategies in artificial intelligence and digital technology. Attendees will learn practical skills to optimize operations, improve marketing, and leverage AI-driven solutions to grow their business efficiently. Whether you’re just starting out or looking to scale, this event provides actionable insights and expert guidance to help your business thrive in the digital age.',
+      locationIcon: 'Location',
+      Address: 'FutureSphere Hub',
+      dateIcon: 'Start Date',
+      date: '27th January, 2026',
+      durationIcon: 'Duration',
+      duration: '4 weeks',
+      agerangeIcon: 'Age Range',
+      ageRange: '25 - 80 years',
+      cta: 'Enroll Now',
+      img: img1
+    },
+    {
+      id: 2,
       title: 'Summer Class',
       desc: 'Lorem ipsum dolor sit amet consectetur. Sit proin purus vel integer. Amet lorem ipsum consectetur quis quam. Odio suspendisse sit nullam eget ac ac senectus. Eget nibh bibendum vestibulum morbi tellus felis bibendum.',
       locationIcon: 'Location',
@@ -47,10 +63,10 @@ export const Whathappening: React.FC<HeroSliderProps> = () => {
       agerangeIcon: 'Age Range',
       ageRange: '6 - 14 years',
       cta: 'Enroll Now',
-      img: img1
+      img: img2
     },
      {
-      id: 2,
+      id: 3,
       title: 'Tech Bootcamp',
       desc: 'Join our intensive hands-on technology training for kids & teens...',
       locationIcon: 'Location',
@@ -62,7 +78,7 @@ export const Whathappening: React.FC<HeroSliderProps> = () => {
       agerangeIcon: 'Age Range',
       ageRange: '10 - 18 years',
       cta: 'Register Now',
-      img: img2
+      img: img3
     }
   ]
 
@@ -93,7 +109,7 @@ export const Whathappening: React.FC<HeroSliderProps> = () => {
                       {item.title}
                     </h3>
 
-                    <p className="text-[#333333] text-lg mb-6">
+                    <p className="text-[#333333] text-[18px] mb-6">
                       {item.desc}
                     </p>
 

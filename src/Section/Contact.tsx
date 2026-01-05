@@ -11,7 +11,7 @@ export const Contact: React.FC = () => {
     >
       {/* Header Text */}
       <h3 className="text-4xl font-bold text-white mb-3">Contact Us</h3>
-      <p className="text-white max-w-2xl mx-auto mb-10">
+      <p className="text-white text-[18px] max-w-3xl mx-auto mb-10 lg:mb-[4em]">
         Have questions about our programs, services, or spaces? We’d love to hear from you.
       </p>
 
@@ -23,25 +23,25 @@ export const Contact: React.FC = () => {
           <input
             type="text"
             placeholder="Name"
-            className="w-full mb-4 p-3 rounded-md bg-white text-[#00181D] font-semibold text-xl"
+            className="w-full mb-4 p-3 rounded-md bg-white text-[#00181D] font-[400]  text-[18px]"
           />
 
           <input
             type="email"
             placeholder="Email"
-            className="w-full mb-4 p-3 rounded-md bg-white  text-[#00181D] font-semibold text-xl"
+            className="w-full mb-4 p-3 rounded-md bg-white  text-[#00181D] font-[400] text-[18px]"
           />
 
           <input
             type="text"
             placeholder="Subject"
-            className="w-full mb-4 p-3 rounded-md bg-white  text-[#00181D] font-semibold text-xl"
+            className="w-full mb-4 p-3 rounded-md bg-white  text-[#00181D] font-[400]  text-[18px]"
           />
 
           <textarea
             placeholder="Message"
             rows={4}
-            className="w-full mb-6 p-3 rounded-md bg-white  text-[#00181D] font-semibold text-xl"
+            className="w-full mb-6 p-3 rounded-md bg-white  text-[#00181D] font-[400]  text-[18px]"
           ></textarea>
 
          <div className='flex justify-start'>
@@ -61,7 +61,7 @@ export const Contact: React.FC = () => {
           <div className="border border-[#88CA4E] p-6 rounded-xl text-center flex justify-center items-center gap-3"> 
             <div className='flex justify-center items-center flex-col'>
             <FaMapMarkerAlt className="text-[#88CA4E] text-2xl mt-1" />
-              <p className="text-2xl font-bold text-white my-3">Our Address</p>
+              <p className="text-[24px] font-[500] text-white my-3">Our Address</p>
               <p className="text-white lg:px-22">
                 Futuresphere BIHub, 2nd Floor, Matoris Place, Chief G U Ake Road,
                 Eliozu, Port Harcourt 500021
@@ -74,10 +74,10 @@ export const Contact: React.FC = () => {
           <div className="border border-[#88CA4E] w-1/2  p-6 rounded-xl lg:h-[250px]  text-center  flex justify-center items-center gap-3"> 
             <div className='flex flex-col gap-4'>
                 <FaPhoneAlt className="text-[#88CA4E] text-2xl mt-1 mx-auto" />
-              <p className="text-2xl font-bold text-white mb-2">Call Us</p>
-              <p className="text-white">+23485225874</p>
-              <p className="text-white">+23485225874</p>
-              <p className="text-white">+23485225874</p>
+              <p className="text-[24px] font-[500] text-white mb-2">Call Us</p>
+              <p className="text-white font-[400]">+23485225874</p>
+              <p className="text-white font-[400]">+23485225874</p>
+              <p className="text-white font-[400]">+23485225874</p>
             </div>
           </div>
 
@@ -85,9 +85,9 @@ export const Contact: React.FC = () => {
           <div className="border border-[#88CA4E] w-1/2  p-6 rounded-xl lg:h-[250px]  text-center  flex justify-center items-center gap-3"> 
             <div className='flex flex-col gap-4'>
               <FaEnvelope className="text-[#88CA4E] text-2xl mt-1 mx-auto" />
-              <p className="text-2xl font-bold text-white mb-2">Email</p>
-              <p className="text-white">help@future <br />sphere.com</p>
-              <p className="text-white">support@future  <br />sphere.com</p>
+              <p className="text-[24px] font-[500] text-white mb-2">Email</p>
+              <p className="text-white  font-[400]">help@future <br />sphere.com</p>
+              <p className="text-white font-[400]">support@future  <br />sphere.com</p>
             </div>
           </div>
 
